@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.edacaner.testapk.SecondActivity">
+
+    <TextView
+        android:id="@+id/txtViewFifth"
+        android:layout_width="269dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="38dp"
+        android:text="What is your purpose of visit?"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="133dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewFifth">
+
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="291dp"
+            android:layout_height="30dp"
+            android:text="I want to buy a plane ticket."
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="124dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="291dp"
+            android:layout_height="32dp"
+            android:text="I want to arrange accomodation."
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="182dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="296dp"
+            android:layout_height="32dp"
+            android:text="I want to see the events in a specific city."
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="239dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="298dp"
+            android:layout_height="34dp"
+            android:text="I want to update my personal information."
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/goButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="43dp"
+        android:text="GO!"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="269dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="52dp"
+        android:text="Welcome!"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
