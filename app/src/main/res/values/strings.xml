@@ -1,3 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/tools">
     <string name="app_name">testAPK</string>
+
 </resources>

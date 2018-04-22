@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="spinnerItems" />
+    <string-array name="spinnerItems">
+        <item>Istanbul</item>
+        <item>New York</item>
+        <item>Stockholm</item>
+        <item>Budapest</item>
+        <item>Paris</item>
+        <item>Tokyo</item>
+        <item>Moscow</item>
+        <item>Madrid</item>
+    </string-array>
 </resources>

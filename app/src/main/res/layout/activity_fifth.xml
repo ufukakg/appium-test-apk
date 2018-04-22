@@ -97,17 +97,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
-    <resources>
-        <string-array android:name="spinnerItems">
-            <item>Istanbul</item>
-            <item>New York</item>
-            <item>Stockholm</item>
-            <item>Budapest</item>
-            <item>Paris</item>
-            <item>Tokyo</item>
-            <item>Moscow</item>
-            <item>Madrid</item>
-        </string-array>
-    </resources>
 
 </android.support.constraint.ConstraintLayout>

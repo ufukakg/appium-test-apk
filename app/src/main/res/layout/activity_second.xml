@@ -17,7 +17,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/radioGroup"
+        android:id="@+id/radioGroupPurpose"
         android:layout_width="wrap_content"
         android:layout_height="133dp"
         android:layout_marginStart="16dp"
@@ -69,7 +69,7 @@
         android:layout_marginTop="43dp"
         android:text="GO!"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroupPurpose" />
 
     <TextView
         android:id="@+id/textView8"
