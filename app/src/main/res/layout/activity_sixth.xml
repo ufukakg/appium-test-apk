@@ -6,36 +6,32 @@
     android:layout_height="match_parent"
     tools:context="com.example.edacaner.testapk.SixthActivity">
 
-    <Button
-        android:id="@+id/submit3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:text="SUBMIT"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="518dp" />
-
     <TextView
         android:id="@+id/textView6"
         android:layout_width="327dp"
         android:layout_height="32dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="16dp"
         android:text="Please pick a date for your visit:"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <DatePicker
         android:id="@+id/datePicker3"
         android:layout_width="302dp"
         android:layout_height="389dp"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="48dp" />
+        android:layout_marginStart="41dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
     <Button
         android:id="@+id/contButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="20dp"
         android:text="Continue"
-        tools:layout_editor_absoluteX="148dp"
-        tools:layout_editor_absoluteY="457dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/datePicker3" />
 
 </android.support.constraint.ConstraintLayout>
